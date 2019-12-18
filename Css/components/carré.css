@@ -1,0 +1,22 @@
+.carré {
+	width: 700px;
+	margin: 80px auto;
+}
+
+@media (max-width: 760px) {
+	.carré {
+	   width: 600px
+	}
+}
+
+@media (max-width: 500px) {
+	.carré {
+		width: 300px
+	}
+}
+
+@media (max-width: 300px) {
+	.carré {
+		width: 100px
+	}
+}
